@@ -1,0 +1,26 @@
+Smart Garage Door using IoT
+
+Project Summary:
+The Smart Garage Door system aids in the automation and increasing functionality of any ordinary garage door with the use of IoT technology. It allows remote control of any garage door by effectively connecting the device to a smartphone via a WiFi network. Other features include laser guidance for perfect parking, voice command operation, improved security by smart notifications, and remote access.
+
+Key Features:
+1. Remote Control: Opening a garage door with the help of a smartphone app to bring about convenience and ease of operation.
+2. Laser Guidance: A laser module provides the vehicle with perfect parking guidance.
+3. Voice Commands: Integrates voice assistants for hands-free operations of the garage door.
+4. Smart Notifications: The user gets real-time status updates and alerts on their smartphone for effective monitoring.
+5. Security Boost: This is additionally improving the security of the house by being able to remotely monitor and control the garage door.
+
+Components Used:
+- ESP32 Microcontroller: Provides connectivity to a WiFi network with an incorporated handler for all operation execution.
+- Relay Module: Controls the work of the garage door motor.
+- Ultrasonic Sensor HC-SR04: Measures the distance, helping with parking.
+- KY-008 Laser Module: Used to guide images on parking.
+- WiFi Network: It controls and monitors remotely.
+
+Advantages:
+• Convenience in remote operation and hands-free control.
+Laser-guided precision parking
+Next-gen security with real-time alerts and remote access
+Integration into smart homes, such as for connectivity and automation
+
+The project offers a practical modem solution to the inconveniences of manual operation of garage doors by increasing the security, convenience, and user experience with IoT tech.
