@@ -1,0 +1,58 @@
+# Air Pollution Monitoring System Using IOT
+
+## Introduction
+Urban air pollution is a critical issue affecting public health and the environment. To combat this problem, we have designed an IoT-based air quality monitoring system. This system utilizes sensors, microcontrollers, and a display to provide real-time air quality data and trigger alarms when pollution levels exceed safe thresholds.
+
+
+## Components Used
+1. ESP32 (Microcontroller):
+    - The ESP32 is the central processing unit, collecting sensor data and controlling the display and alarm.
+    - It offers Wi-Fi and Bluetooth connectivity for remote monitoring and data logging.
+
+2. Air Quality Sensors:
+    - MQ135:
+        - Measures various gases, including ammonia, nitrogen oxides, and benzene.
+        - Provides analog output proportional to gas concentration.
+        - Requires calibration against reference gases.
+    - MQ6:
+        - Detects LPG (liquefied petroleum gas), butane, and propane.
+        - Similar to MQ135, it provides analog output.
+
+3. LCD Display (I2C Interface):
+    - We use a 16x2 or 20x4 LCD display with an I2C interface.
+    - The display shows both sensors' real-time PPM (parts per million) values.
+
+4. Buzzer (Alarm):
+    - The buzzer alerts users when air quality deteriorates.
+    - It activates when PPM values exceed predefined thresholds.
+
+
+
+## Implementation Steps
+1. Wiring and Connections:
+    - Connect the sensors (MQ135 and MQ6) to the ESP32's analog pins.
+    - Wire the I2C interfaced LCD to the ESP32 for real-time data visualization.
+    - Connect the buzzer to a digital pin.
+
+2. Code Implementation (Arduino):
+    - Write Arduino code to:
+        - Read analog values from the sensors.
+        - Convert raw sensor readings to PPM values using calibration curves.
+        - Display PPM values on the LCD.
+        - Set air quality thresholds and trigger the alarm.
+        - Log data (timestamp, PPM values, alarm status) for analysis.
+
+3. Calibration and Testing:
+    - Calibrate sensors using reference gases (clean air).
+    - Test the system in different environments (indoors, and outdoors).
+
+4. Data Logging and Analysis:
+    - Store sensor data locally (SD card) or remotely (cloud server).
+    - Analyze historical data for trends and patterns.
+    - Intervene when necessary (ventilation, pollution source reduction).
+    - It will analyze the data using Python code which will use MATLAB for proper analysis of data all over India.
+
+
+
+## Conclusion
+IoT-based air pollution monitoring system provides real-time information, enabling informed decisions and timely interventions to improve air quality. By combining hardware components, code, and data analysis, we contribute to a healthier and more sustainable urban environment.
