@@ -1,0 +1,24 @@
+## Weather Reporting System using IoT
+
+Summary of Project
+The weather reporting system can be actualized using IoT technology to receive local weather data to improve insulation from foreign weather services. The system retrieves real-time environmental information using temperature, humidity, and rain sensors, and a transmitter via the Internet for monitoring and analysis. It also lets the user view weather updates online, further facilitating alerts on worst weather conditions such as heavy rainfall, notification, and quick response to any looming natural crises.
+
+Features:
+1. Real-Time Data Collection: This device collects real-time information about temperature, humidity, and rainfall from the area.
+2. Internet Connectivity: The data regarding weather conditions will then be sent to an online platform from which it can easily be accessed, and the information monitored accordingly.
+3. Localized Forecasts: Accurate and local weather information available for the user
+4. Alerts and Notifications: Configurable alerts in the form of red, yellow, and green warnings alert users regarding severe weather conditions like volcanoes, tsunamis, and heavy rainfall.
+
+Components Used:
+- DHT22 Sensor: Temperature and humidity measuring sensor.
+• Rain Sensor: Detects the intensity of the rain.
+• WiFi Module (ESP32): Connects the whole system to the Internet.
+• Microcontroller: The microcontroller collects data from all the sensors and sends this data online.
+• Online Platform: It provides an interface for the dissemination of weather data, and, based on this data, sends warning messages to subscribers as required.
+
+Advantages:
+• Improved safety due to early weather warnings
+• Accurate and real-time weather information on a local scale
+• Can be integrated with other smart home systems that make automatic decisions based on climatic conditions.
+
+The project offers local weather monitoring in a complete package so that it is vigilant on the negative occurrences of the weather.
