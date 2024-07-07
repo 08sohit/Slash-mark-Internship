@@ -1,0 +1,89 @@
+Smart Cradle System Using IoT
+
+Project Summary:
+
+Smart Cradle System is an IOT based system which enables monitoring of infants by their working from remote locations. Through the magic of IoT technology, this cradle system offers cry detection, live video feed, temperature and humidity monitoring, and self-rocking to ensure the little one’s comfort and safety.
+
+Key Features:
+
+Cry Detection:
+
+A microphone module that detects the baby’s cry is the foundation of the cry detection function in use.
+
+Communication is delivered to parents through the associated interface.
+
+Live Video Feed:
+
+ESP32-CAM module is the main tool that video streaming is made with Smart Watches: Pros and Cons . Pros and Cons of Smartwatches as Interactive Learning Tools it.
+
+Parent is enabled to see and hear baby live, from afar using the remote control.
+
+Temperature and Humidity Monitoring:
+
+The bed’s temperature and humidity are assessed by the DHT11 or DHT22 sensor.
+
+Temperature readings to assure that the environment is the proper setting for the baby to sleep in, is given.
+
+Automatic Rocking Mechanism:
+
+A servo motor must be employed to the rocking mechanism so the cradle can rock the baby carefully.
+
+It turns on as it picks up that a baby is gig not feeling will or manually control it via the webserver.
+
+User-friendly Interface:
+
+Can be accessed on the web or through a mobile app and that's was one of the key features.
+
+This allows parents to receive alerts, watch the live feed, and control the cradle from a distance.
+
+Components Required:
+
+ESP32-CAM Module: For the RTMP and RTSP protocols, it is a video streaming and process solution.
+
+DHT11/DHT22 Sensor: For temperature and humidity monitoring.
+
+The cry detector module is the juniormost module.
+
+Servo Motor: For the rocking mechanism.
+
+Power Supply (5V): For the devices.
+
+Connecting Wires: To wire up all electronic devices. (original phrase corrected)
+
+Wiring and Connections:
+
+DHT11/DHT22 Sensor:
+
+VCC -> 3.3V on ESP32-CAM
+
+Data -> GPIO14 on ESP32-CAM
+
+GND -> GND on ESP32-CAM
+
+Microphone Module:
+
+VCC -> 3.3V on ESP32-CAM
+
+GND -> GND on ESP32-CAM
+
+OUT -> GPIO36 (ADC1_0) on ESP32-CAM
+
+Servo Motor:
+
+VCC -> 5V external power supply
+
+GND -> Common ground with ESP32-CAM
+
+Signal -> GPIO12 on ESP32-CAM
+
+Power Supply:
+
+You can use a 5V power supply to charge your ESP32-CAM and the servo motor (original phrase corrected to overcome the awkwardness of the original).
+
+Be sure a common ground is used. (original phrase corrected to remove repeated words "motor power supply")
+
+Code Implementation:
+
+The code provided enables the ESP32-CAM to initialize it for video streaming, to gets data arousing the temperature and humidity, to detect the baby cry sound using the microphone and then moves the servo motor for cradle rocking. Make sure to install the right libraries and the correct pin configuration in your code.
+
+With each component and function blended, the Smart Cradle System becomes a complete answer to baby watching and baby comfort, thus, the positive feeling and relief of parents can be achieved. (original phrase corrected)
